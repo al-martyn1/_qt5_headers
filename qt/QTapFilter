@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QTapFilter_from_QtSensors_QTapFilter_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QTapFilter_from_QtSensors_QTapFilter_INCLUDE_GUARD
+
+
+    #include <QtSensors/QTapFilter>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtSensorsd")
+
+        #else
+
+            #pragma comment(lib, "QtSensors")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QTapFilter_from_QtSensors_QTapFilter_INCLUDE_GUARD */
+

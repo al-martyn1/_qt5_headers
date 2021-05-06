@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QDBusVirtualObject_from_QtDBus_QDBusVirtualObject_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QDBusVirtualObject_from_QtDBus_QDBusVirtualObject_INCLUDE_GUARD
+
+
+    #include <QtDBus/QDBusVirtualObject>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtDBusd")
+
+        #else
+
+            #pragma comment(lib, "QtDBus")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QDBusVirtualObject_from_QtDBus_QDBusVirtualObject_INCLUDE_GUARD */
+

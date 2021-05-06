@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QReadWriteLock_from_QtCore_QReadWriteLock_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QReadWriteLock_from_QtCore_QReadWriteLock_INCLUDE_GUARD
+
+
+    #include <QtCore/QReadWriteLock>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtCored")
+
+        #else
+
+            #pragma comment(lib, "QtCore")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QReadWriteLock_from_QtCore_QReadWriteLock_INCLUDE_GUARD */
+

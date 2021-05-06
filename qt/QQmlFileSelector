@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QQmlFileSelector_from_QtQml_QmlFileSelector_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QQmlFileSelector_from_QtQml_QmlFileSelector_INCLUDE_GUARD
+
+
+    #include <QtQml/QQmlFileSelector>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtQmld")
+
+        #else
+
+            #pragma comment(lib, "QtQml")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QQmlFileSelector_from_QtQml_QmlFileSelector_INCLUDE_GUARD */
+

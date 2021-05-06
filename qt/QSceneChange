@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QSceneChange_from_Qt3DCore_QSceneChange_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QSceneChange_from_Qt3DCore_QSceneChange_INCLUDE_GUARD
+
+
+    #include <Qt3DCore/QSceneChange>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt3DCored")
+
+        #else
+
+            #pragma comment(lib, "Qt3DCore")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QSceneChange_from_Qt3DCore_QSceneChange_INCLUDE_GUARD */
+

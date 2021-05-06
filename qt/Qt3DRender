@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_Qt3DRender_from_Qt3DRender_Qt3DRender_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_Qt3DRender_from_Qt3DRender_Qt3DRender_INCLUDE_GUARD
+
+
+    #include <Qt3DRender/Qt3DRender>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt3DRenderd")
+
+        #else
+
+            #pragma comment(lib, "Qt3DRender")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_Qt3DRender_from_Qt3DRender_Qt3DRender_INCLUDE_GUARD */
+

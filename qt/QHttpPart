@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QHttpPart_from_QtNetwork_QHtpPart_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QHttpPart_from_QtNetwork_QHtpPart_INCLUDE_GUARD
+
+
+    #include <QtNetwork/QHttpPart>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtNetworkd")
+
+        #else
+
+            #pragma comment(lib, "QtNetwork")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QHttpPart_from_QtNetwork_QHtpPart_INCLUDE_GUARD */
+

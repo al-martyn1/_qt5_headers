@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QCanBusFactory_from_QtSerialBus_QCanBusFactory_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QCanBusFactory_from_QtSerialBus_QCanBusFactory_INCLUDE_GUARD
+
+
+    #include <QtSerialBus/QCanBusFactory>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtSerialBusd")
+
+        #else
+
+            #pragma comment(lib, "QtSerialBus")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QCanBusFactory_from_QtSerialBus_QCanBusFactory_INCLUDE_GUARD */
+

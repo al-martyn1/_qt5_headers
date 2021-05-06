@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QGraphicsSvgItem_from_QtSvg_QGraphicsSvgItem_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QGraphicsSvgItem_from_QtSvg_QGraphicsSvgItem_INCLUDE_GUARD
+
+
+    #include <QtSvg/QGraphicsSvgItem>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtSvgd")
+
+        #else
+
+            #pragma comment(lib, "QtSvg")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QGraphicsSvgItem_from_QtSvg_QGraphicsSvgItem_INCLUDE_GUARD */
+

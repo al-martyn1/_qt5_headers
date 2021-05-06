@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QWinEvent_from_QtWinExtras_QWinEvent_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QWinEvent_from_QtWinExtras_QWinEvent_INCLUDE_GUARD
+
+
+    #include <QtWinExtras/QWinEvent>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtWinExtrasd")
+
+        #else
+
+            #pragma comment(lib, "QtWinExtras")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QWinEvent_from_QtWinExtras_QWinEvent_INCLUDE_GUARD */
+

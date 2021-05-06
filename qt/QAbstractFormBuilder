@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QAbstractFormBuilder_from_QtDesigner_QAbstractFormBuilder_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QAbstractFormBuilder_from_QtDesigner_QAbstractFormBuilder_INCLUDE_GUARD
+
+
+    #include <QtDesigner/QAbstractFormBuilder>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtDesignerd")
+
+        #else
+
+            #pragma comment(lib, "QtDesigner")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QAbstractFormBuilder_from_QtDesigner_QAbstractFormBuilder_INCLUDE_GUARD */
+

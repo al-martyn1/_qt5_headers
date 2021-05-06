@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QGamepadManager_from_QtGamepad_QGamepadManager_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QGamepadManager_from_QtGamepad_QGamepadManager_INCLUDE_GUARD
+
+
+    #include <QtGamepad/QGamepadManager>
+
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtGamepadd")
+
+        #else
+
+            #pragma comment(lib, "QtGamepad")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QGamepadManager_from_QtGamepad_QGamepadManager_INCLUDE_GUARD */
+
