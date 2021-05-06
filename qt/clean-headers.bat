@@ -3,33 +3,8 @@
 umba-make-headers --clean namelist.txt
 @if exist git-add.bat del git-add.bat
 
-@cd chrono
-umba-make-headers --clean namelist.txt
-@if exist git-add.bat del git-add.bat
-@cd ..
-
-@cd execution
-umba-make-headers --clean namelist.txt
-@if exist git-add.bat del git-add.bat
-@cd ..
-
-@cd numbers
-umba-make-headers --clean namelist.txt
-@if exist git-add.bat del git-add.bat
-@cd ..
-
-@cd placeholders
-umba-make-headers --clean namelist.txt
-@if exist git-add.bat del git-add.bat
-@cd ..
-
-@cd pmr
-umba-make-headers --clean namelist.txt
-@if exist git-add.bat del git-add.bat
-@cd ..
-
-@cd ranges
-umba-make-headers --clean namelist.txt
-@if exist git-add.bat del git-add.bat
-@cd ..
+@rem cd chrono
+@rem umba-make-headers --clean namelist.txt
+@rem if exist git-add.bat del git-add.bat
+@rem cd ..
 
