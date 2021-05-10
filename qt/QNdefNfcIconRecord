@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QNdefNfcIconRecord_from_QtNfc_QNdefNfcIconRecord_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QNdefNfcIconRecord_from_QtNfc_QNdefNfcIconRecord_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qndefnfciconrecord.html
+
+    #include <QtNfc/QNdefNfcIconRecord>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtNfcd")
+
+        #else
+
+            #pragma comment(lib, "QtNfc")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QNdefNfcIconRecord_from_QtNfc_QNdefNfcIconRecord_INCLUDE_GUARD */
+

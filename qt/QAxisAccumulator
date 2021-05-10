@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QAxisAccumulator_from_Qt3DInput_QAxisAcumulator_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QAxisAccumulator_from_Qt3DInput_QAxisAcumulator_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qaxisaccumulator.html
+
+    #include <Qt3DInput/QAxisAccumulator>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt3DInputd")
+
+        #else
+
+            #pragma comment(lib, "Qt3DInput")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QAxisAccumulator_from_Qt3DInput_QAxisAcumulator_INCLUDE_GUARD */
+

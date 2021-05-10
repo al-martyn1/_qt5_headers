@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QtMultimediaQuickDepends_from_QtMultimediaQuick_QtMultimediaQuickDepends_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QtMultimediaQuickDepends_from_QtMultimediaQuick_QtMultimediaQuickDepends_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtmultimediaquickdepends.html
+
+    #include <QtMultimediaQuick/QtMultimediaQuickDepends>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtMultimediaQuickd")
+
+        #else
+
+            #pragma comment(lib, "QtMultimediaQuick")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QtMultimediaQuickDepends_from_QtMultimediaQuick_QtMultimediaQuickDepends_INCLUDE_GUARD */
+

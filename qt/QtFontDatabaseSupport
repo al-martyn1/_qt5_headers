@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QtFontDatabaseSupport_from_QtFontDatabaseSuport_QtFontDatabaseSuport_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QtFontDatabaseSupport_from_QtFontDatabaseSuport_QtFontDatabaseSuport_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtfontdatabasesupport.html
+
+    #include <QtFontDatabaseSupport/QtFontDatabaseSupport>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtFontDatabaseSupportd")
+
+        #else
+
+            #pragma comment(lib, "QtFontDatabaseSupport")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QtFontDatabaseSupport_from_QtFontDatabaseSuport_QtFontDatabaseSuport_INCLUDE_GUARD */
+

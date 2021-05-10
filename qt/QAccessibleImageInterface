@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QAccessibleImageInterface_from_QtGui_QAcesibleImageInterface_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QAccessibleImageInterface_from_QtGui_QAcesibleImageInterface_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qaccessibleimageinterface.html
+
+    #include <QtGui/QAccessibleImageInterface>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtGuid")
+
+        #else
+
+            #pragma comment(lib, "QtGui")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QAccessibleImageInterface_from_QtGui_QAcesibleImageInterface_INCLUDE_GUARD */
+

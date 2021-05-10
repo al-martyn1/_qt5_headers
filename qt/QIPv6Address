@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QIPv6Address_from_QtNetwork_QIPv6Adres_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QIPv6Address_from_QtNetwork_QIPv6Adres_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qipv6address.html
+
+    #include <QtNetwork/QIPv6Address>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtNetworkd")
+
+        #else
+
+            #pragma comment(lib, "QtNetwork")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QIPv6Address_from_QtNetwork_QIPv6Adres_INCLUDE_GUARD */
+

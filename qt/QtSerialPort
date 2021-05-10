@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QtSerialPort_from_QtSerialPort_QtSerialPort_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QtSerialPort_from_QtSerialPort_QtSerialPort_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtserialport.html
+
+    #include <QtSerialPort/QtSerialPort>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtSerialPortd")
+
+        #else
+
+            #pragma comment(lib, "QtSerialPort")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QtSerialPort_from_QtSerialPort_QtSerialPort_INCLUDE_GUARD */
+

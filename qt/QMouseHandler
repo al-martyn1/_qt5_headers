@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QMouseHandler_from_Qt3DInput_QMouseHandler_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QMouseHandler_from_Qt3DInput_QMouseHandler_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qmousehandler.html
+
+    #include <Qt3DInput/QMouseHandler>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt3DInputd")
+
+        #else
+
+            #pragma comment(lib, "Qt3DInput")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QMouseHandler_from_Qt3DInput_QMouseHandler_INCLUDE_GUARD */
+

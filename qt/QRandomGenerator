@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QRandomGenerator_from_QtCore_QRandomGenerator_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QRandomGenerator_from_QtCore_QRandomGenerator_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qrandomgenerator.html
+
+    #include <QtCore/QRandomGenerator>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtCored")
+
+        #else
+
+            #pragma comment(lib, "QtCore")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QRandomGenerator_from_QtCore_QRandomGenerator_INCLUDE_GUARD */
+

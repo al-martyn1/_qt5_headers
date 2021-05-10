@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QMatrix4x3_from_QtGui_QMatrix4x3_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QMatrix4x3_from_QtGui_QMatrix4x3_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qmatrix4x3.html
+
+    #include <QtGui/QMatrix4x3>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtGuid")
+
+        #else
+
+            #pragma comment(lib, "QtGui")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QMatrix4x3_from_QtGui_QMatrix4x3_INCLUDE_GUARD */
+

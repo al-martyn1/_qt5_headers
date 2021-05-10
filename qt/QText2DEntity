@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QText2DEntity_from_Qt3DExtras_QText2DEntity_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QText2DEntity_from_Qt3DExtras_QText2DEntity_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtext2dentity.html
+
+    #include <Qt3DExtras/QText2DEntity>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt3DExtrasd")
+
+        #else
+
+            #pragma comment(lib, "Qt3DExtras")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QText2DEntity_from_Qt3DExtras_QText2DEntity_INCLUDE_GUARD */
+

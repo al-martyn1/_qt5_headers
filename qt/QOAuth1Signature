@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QOAuth1Signature_from_QtNetworkAuth_QOAuth1Signature_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QOAuth1Signature_from_QtNetworkAuth_QOAuth1Signature_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qoauth1signature.html
+
+    #include <QtNetworkAuth/QOAuth1Signature>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtNetworkAuthd")
+
+        #else
+
+            #pragma comment(lib, "QtNetworkAuth")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QOAuth1Signature_from_QtNetworkAuth_QOAuth1Signature_INCLUDE_GUARD */
+

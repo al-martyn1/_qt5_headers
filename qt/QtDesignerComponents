@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QtDesignerComponents_from_QtDeviceDiscoverySuport_QtDesignerComponents_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QtDesignerComponents_from_QtDeviceDiscoverySuport_QtDesignerComponents_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtdesignercomponents.html
+
+    #include <QtDeviceDiscoverySupport/QtDesignerComponents>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtDeviceDiscoverySupportd")
+
+        #else
+
+            #pragma comment(lib, "QtDeviceDiscoverySupport")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QtDesignerComponents_from_QtDeviceDiscoverySuport_QtDesignerComponents_INCLUDE_GUARD */
+

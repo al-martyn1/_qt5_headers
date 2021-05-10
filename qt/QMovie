@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QMovie_from_QtGui_QMovie_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QMovie_from_QtGui_QMovie_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qmovie.html
+
+    #include <QtGui/QMovie>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtGuid")
+
+        #else
+
+            #pragma comment(lib, "QtGui")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QMovie_from_QtGui_QMovie_INCLUDE_GUARD */
+

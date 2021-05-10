@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QJSValue_from_QtQml_QJSValue_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QJSValue_from_QtQml_QJSValue_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qjsvalue.html
+
+    #include <QtQml/QJSValue>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtQmld")
+
+        #else
+
+            #pragma comment(lib, "QtQml")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QJSValue_from_QtQml_QJSValue_INCLUDE_GUARD */
+

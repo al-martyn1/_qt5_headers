@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QtAccessibilitySupport_from_QtAcesibilitySuport_QtAcesibilitySuport_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QtAccessibilitySupport_from_QtAcesibilitySuport_QtAcesibilitySuport_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtaccessibilitysupport.html
+
+    #include <QtAccessibilitySupport/QtAccessibilitySupport>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtAccessibilitySupportd")
+
+        #else
+
+            #pragma comment(lib, "QtAccessibilitySupport")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QtAccessibilitySupport_from_QtAcesibilitySuport_QtAcesibilitySuport_INCLUDE_GUARD */
+

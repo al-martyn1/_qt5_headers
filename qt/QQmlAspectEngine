@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QQmlAspectEngine_from_Qt3DQuick_QmlAspectEngine_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QQmlAspectEngine_from_Qt3DQuick_QmlAspectEngine_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qqmlaspectengine.html
+
+    #include <Qt3DQuick/QQmlAspectEngine>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt3DQuickd")
+
+        #else
+
+            #pragma comment(lib, "Qt3DQuick")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QQmlAspectEngine_from_Qt3DQuick_QmlAspectEngine_INCLUDE_GUARD */
+

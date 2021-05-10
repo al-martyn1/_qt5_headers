@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QSqlRecord_from_QtSql_QSqlRecord_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QSqlRecord_from_QtSql_QSqlRecord_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qsqlrecord.html
+
+    #include <QtSql/QSqlRecord>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtSqld")
+
+        #else
+
+            #pragma comment(lib, "QtSql")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QSqlRecord_from_QtSql_QSqlRecord_INCLUDE_GUARD */
+

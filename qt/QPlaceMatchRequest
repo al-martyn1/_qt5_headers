@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QPlaceMatchRequest_from_QtLocation_QPlaceMatchRequest_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QPlaceMatchRequest_from_QtLocation_QPlaceMatchRequest_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qplacematchrequest.html
+
+    #include <QtLocation/QPlaceMatchRequest>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtLocationd")
+
+        #else
+
+            #pragma comment(lib, "QtLocation")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QPlaceMatchRequest_from_QtLocation_QPlaceMatchRequest_INCLUDE_GUARD */
+

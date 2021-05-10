@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QtConcurrentRun_from_QtConcurent_QtConcurentRun_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QtConcurrentRun_from_QtConcurent_QtConcurentRun_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtconcurrentrun.html
+
+    #include <QtConcurrent/QtConcurrentRun>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtConcurrentd")
+
+        #else
+
+            #pragma comment(lib, "QtConcurrent")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QtConcurrentRun_from_QtConcurent_QtConcurentRun_INCLUDE_GUARD */
+

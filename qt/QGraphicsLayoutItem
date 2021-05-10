@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QGraphicsLayoutItem_from_QtWidgets_QGraphicsLayoutItem_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QGraphicsLayoutItem_from_QtWidgets_QGraphicsLayoutItem_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qgraphicslayoutitem.html
+
+    #include <QtWidgets/QGraphicsLayoutItem>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtWidgetsd")
+
+        #else
+
+            #pragma comment(lib, "QtWidgets")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QGraphicsLayoutItem_from_QtWidgets_QGraphicsLayoutItem_INCLUDE_GUARD */
+

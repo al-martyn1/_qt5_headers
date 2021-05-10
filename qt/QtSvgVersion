@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QtSvgVersion_from_QtSvg_QtSvgVersion_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QtSvgVersion_from_QtSvg_QtSvgVersion_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtsvgversion.html
+
+    #include <QtSvg/QtSvgVersion>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtSvgd")
+
+        #else
+
+            #pragma comment(lib, "QtSvg")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QtSvgVersion_from_QtSvg_QtSvgVersion_INCLUDE_GUARD */
+

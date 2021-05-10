@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QQmlDebuggingEnabler_from_QtQml_QmlDebugingEnabler_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QQmlDebuggingEnabler_from_QtQml_QmlDebugingEnabler_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qqmldebuggingenabler.html
+
+    #include <QtQml/QQmlDebuggingEnabler>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtQmld")
+
+        #else
+
+            #pragma comment(lib, "QtQml")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QQmlDebuggingEnabler_from_QtQml_QmlDebugingEnabler_INCLUDE_GUARD */
+

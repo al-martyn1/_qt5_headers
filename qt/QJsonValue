@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QJsonValue_from_QtCore_QJsonValue_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QJsonValue_from_QtCore_QJsonValue_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qjsonvalue.html
+
+    #include <QtCore/QJsonValue>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtCored")
+
+        #else
+
+            #pragma comment(lib, "QtCore")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QJsonValue_from_QtCore_QJsonValue_INCLUDE_GUARD */
+

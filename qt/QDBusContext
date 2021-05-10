@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QDBusContext_from_QtDBus_QDBusContext_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QDBusContext_from_QtDBus_QDBusContext_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qdbuscontext.html
+
+    #include <QtDBus/QDBusContext>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtDBusd")
+
+        #else
+
+            #pragma comment(lib, "QtDBus")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QDBusContext_from_QtDBus_QDBusContext_INCLUDE_GUARD */
+

@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QMediaContainerControl_from_QtMultimedia_QMediaContainerControl_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QMediaContainerControl_from_QtMultimedia_QMediaContainerControl_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qmediacontainercontrol.html
+
+    #include <QtMultimedia/QMediaContainerControl>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtMultimediad")
+
+        #else
+
+            #pragma comment(lib, "QtMultimedia")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QMediaContainerControl_from_QtMultimedia_QMediaContainerControl_INCLUDE_GUARD */
+

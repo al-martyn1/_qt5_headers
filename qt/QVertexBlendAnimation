@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QVertexBlendAnimation_from_Qt3DAnimation_QVertexBlendAnimation_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QVertexBlendAnimation_from_Qt3DAnimation_QVertexBlendAnimation_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qvertexblendanimation.html
+
+    #include <Qt3DAnimation/QVertexBlendAnimation>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt3DAnimationd")
+
+        #else
+
+            #pragma comment(lib, "Qt3DAnimation")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QVertexBlendAnimation_from_Qt3DAnimation_QVertexBlendAnimation_INCLUDE_GUARD */
+

@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QHolsterFilter_from_QtSensors_QHolsterFilter_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QHolsterFilter_from_QtSensors_QHolsterFilter_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qholsterfilter.html
+
+    #include <QtSensors/QHolsterFilter>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtSensorsd")
+
+        #else
+
+            #pragma comment(lib, "QtSensors")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QHolsterFilter_from_QtSensors_QHolsterFilter_INCLUDE_GUARD */
+

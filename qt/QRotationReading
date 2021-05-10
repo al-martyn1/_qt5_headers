@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QRotationReading_from_QtSensors_QRotationReading_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QRotationReading_from_QtSensors_QRotationReading_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qrotationreading.html
+
+    #include <QtSensors/QRotationReading>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtSensorsd")
+
+        #else
+
+            #pragma comment(lib, "QtSensors")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QRotationReading_from_QtSensors_QRotationReading_INCLUDE_GUARD */
+

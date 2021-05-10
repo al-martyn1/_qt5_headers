@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QBluetoothSocket_from_QtBluetoth_QBluetothSocket_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QBluetoothSocket_from_QtBluetoth_QBluetothSocket_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qbluetoothsocket.html
+
+    #include <QtBluetooth/QBluetoothSocket>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtBluetoothd")
+
+        #else
+
+            #pragma comment(lib, "QtBluetooth")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QBluetoothSocket_from_QtBluetoth_QBluetothSocket_INCLUDE_GUARD */
+

@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QtLocationDepends_from_QtLocation_QtLocationDepends_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QtLocationDepends_from_QtLocation_QtLocationDepends_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtlocationdepends.html
+
+    #include <QtLocation/QtLocationDepends>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "QtLocationd")
+
+        #else
+
+            #pragma comment(lib, "QtLocation")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QtLocationDepends_from_QtLocation_QtLocationDepends_INCLUDE_GUARD */
+

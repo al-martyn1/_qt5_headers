@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QPropertyNodeRemovedChange_from_Qt3DCore_QPropertyNodeRemovedChange_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QPropertyNodeRemovedChange_from_Qt3DCore_QPropertyNodeRemovedChange_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qpropertynoderemovedchange.html
+
+    #include <Qt3DCore/QPropertyNodeRemovedChange>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt3DCored")
+
+        #else
+
+            #pragma comment(lib, "Qt3DCore")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QPropertyNodeRemovedChange_from_Qt3DCore_QPropertyNodeRemovedChange_INCLUDE_GUARD */
+
