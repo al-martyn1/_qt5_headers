@@ -1,5 +1,5 @@
 This repository allows You (if it is supported by your IDE) to simply include Qt header file by Qt type name.
-Add "qt_headers" to C++ include search path and then type:
+Add `_qt_headers` to C++ include search path and then type:
 
   #include <qt/Q
   
