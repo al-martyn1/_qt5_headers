@@ -12,11 +12,11 @@
 
         #if defined(DEBUG) || defined(_DEBUG)
 
-            #pragma comment(lib, "QtFontDatabaseSupportd")
+            #pragma comment(lib, "Qt5FontDatabaseSupportd")
 
         #else
 
-            #pragma comment(lib, "QtFontDatabaseSupport")
+            #pragma comment(lib, "Qt5FontDatabaseSupport")
 
         #endif
 

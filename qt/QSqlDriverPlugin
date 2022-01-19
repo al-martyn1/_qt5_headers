@@ -12,11 +12,11 @@
 
         #if defined(DEBUG) || defined(_DEBUG)
 
-            #pragma comment(lib, "QtSqld")
+            #pragma comment(lib, "Qt5Sqld")
 
         #else
 
-            #pragma comment(lib, "QtSql")
+            #pragma comment(lib, "Qt5Sql")
 
         #endif
 

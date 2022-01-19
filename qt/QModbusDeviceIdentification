@@ -12,11 +12,11 @@
 
         #if defined(DEBUG) || defined(_DEBUG)
 
-            #pragma comment(lib, "QtSerialBusd")
+            #pragma comment(lib, "Qt5SerialBusd")
 
         #else
 
-            #pragma comment(lib, "QtSerialBus")
+            #pragma comment(lib, "Qt5SerialBus")
 
         #endif
 

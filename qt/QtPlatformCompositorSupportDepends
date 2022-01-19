@@ -12,11 +12,11 @@
 
         #if defined(DEBUG) || defined(_DEBUG)
 
-            #pragma comment(lib, "QtPlatformCompositorSupportd")
+            #pragma comment(lib, "Qt5PlatformCompositorSupportd")
 
         #else
 
-            #pragma comment(lib, "QtPlatformCompositorSupport")
+            #pragma comment(lib, "Qt5PlatformCompositorSupport")
 
         #endif
 

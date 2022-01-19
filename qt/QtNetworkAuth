@@ -12,11 +12,11 @@
 
         #if defined(DEBUG) || defined(_DEBUG)
 
-            #pragma comment(lib, "QtNetworkAuthd")
+            #pragma comment(lib, "Qt5NetworkAuthd")
 
         #else
 
-            #pragma comment(lib, "QtNetworkAuth")
+            #pragma comment(lib, "Qt5NetworkAuth")
 
         #endif
 

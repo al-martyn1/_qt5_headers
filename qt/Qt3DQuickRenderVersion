@@ -12,11 +12,11 @@
 
         #if defined(DEBUG) || defined(_DEBUG)
 
-            #pragma comment(lib, "Qt3DQuickRenderd")
+            #pragma comment(lib, "Qt53DQuickRenderd")
 
         #else
 
-            #pragma comment(lib, "Qt3DQuickRender")
+            #pragma comment(lib, "Qt53DQuickRender")
 
         #endif
 

@@ -12,11 +12,11 @@
 
         #if defined(DEBUG) || defined(_DEBUG)
 
-            #pragma comment(lib, "QtXmld")
+            #pragma comment(lib, "Qt5Xmld")
 
         #else
 
-            #pragma comment(lib, "QtXml")
+            #pragma comment(lib, "Qt5Xml")
 
         #endif
 
