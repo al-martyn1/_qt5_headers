@@ -2,7 +2,7 @@
 
 @set OPTS=--git-add -W=all
 
-umba-make-headers %OPTS% namelist.txt                  > make-headers.log
+umba-make-headers %OPTS% --qt5 namelist.txt                   > make-headers.log
 
 @rem cd chrono
 @rem umba-make-headers -W=all  namelist.txt                  > make-headers.log
