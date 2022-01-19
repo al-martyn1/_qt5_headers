@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QClipBlendNodeCreatedChangeBase_from_Qt3DAnimation_QClipBlendNodeCreatedChangeBase_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QClipBlendNodeCreatedChangeBase_from_Qt3DAnimation_QClipBlendNodeCreatedChangeBase_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qclipblendnodecreatedchangebase.html
+
+    #include <Qt3DAnimation/QClipBlendNodeCreatedChangeBase>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DAnimationd")
+
+        #else
+
+            #pragma comment(lib, "Qt53DAnimation")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QClipBlendNodeCreatedChangeBase_from_Qt3DAnimation_QClipBlendNodeCreatedChangeBase_INCLUDE_GUARD */
+

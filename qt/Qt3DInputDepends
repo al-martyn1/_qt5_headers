@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_Qt3DInputDepends_from_Qt3DInput_Qt3DInputDepends_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_Qt3DInputDepends_from_Qt3DInput_Qt3DInputDepends_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qt3dinputdepends.html
+
+    #include <Qt3DInput/Qt3DInputDepends>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DInputd")
+
+        #else
+
+            #pragma comment(lib, "Qt53DInput")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_Qt3DInputDepends_from_Qt3DInput_Qt3DInputDepends_INCLUDE_GUARD */
+

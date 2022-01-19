@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QLowEnergyCharacteristic_from_QtBluetoth_QLowEnergyCharacteristic_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QLowEnergyCharacteristic_from_QtBluetoth_QLowEnergyCharacteristic_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qlowenergycharacteristic.html
+
+    #include <QtBluetooth/QLowEnergyCharacteristic>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Bluetoothd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Bluetooth")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QLowEnergyCharacteristic_from_QtBluetoth_QLowEnergyCharacteristic_INCLUDE_GUARD */
+

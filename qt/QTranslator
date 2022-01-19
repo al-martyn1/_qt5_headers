@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QTranslator_from_QtCore_QTranslator_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QTranslator_from_QtCore_QTranslator_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtranslator.html
+
+    #include <QtCore/QTranslator>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Cored")
+
+        #else
+
+            #pragma comment(lib, "Qt5Core")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QTranslator_from_QtCore_QTranslator_INCLUDE_GUARD */
+

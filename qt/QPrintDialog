@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QPrintDialog_from_QtPrintSuport_QPrintDialog_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QPrintDialog_from_QtPrintSuport_QPrintDialog_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qprintdialog.html
+
+    #include <QtPrintSupport/QPrintDialog>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5PrintSupportd")
+
+        #else
+
+            #pragma comment(lib, "Qt5PrintSupport")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QPrintDialog_from_QtPrintSuport_QPrintDialog_INCLUDE_GUARD */
+

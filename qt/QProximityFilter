@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QProximityFilter_from_QtSensors_QProximityFilter_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QProximityFilter_from_QtSensors_QProximityFilter_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qproximityfilter.html
+
+    #include <QtSensors/QProximityFilter>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Sensorsd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Sensors")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QProximityFilter_from_QtSensors_QProximityFilter_INCLUDE_GUARD */
+

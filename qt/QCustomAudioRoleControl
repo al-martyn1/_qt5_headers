@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QCustomAudioRoleControl_from_QtMultimedia_QCustomAudioRoleControl_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QCustomAudioRoleControl_from_QtMultimedia_QCustomAudioRoleControl_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qcustomaudiorolecontrol.html
+
+    #include <QtMultimedia/QCustomAudioRoleControl>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Multimediad")
+
+        #else
+
+            #pragma comment(lib, "Qt5Multimedia")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QCustomAudioRoleControl_from_QtMultimedia_QCustomAudioRoleControl_INCLUDE_GUARD */
+

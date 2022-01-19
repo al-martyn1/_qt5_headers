@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QDesignerDnDItemInterface_from_QtDesigner_QDesignerDnDItemInterface_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QDesignerDnDItemInterface_from_QtDesigner_QDesignerDnDItemInterface_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qdesignerdnditeminterface.html
+
+    #include <QtDesigner/QDesignerDnDItemInterface>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Designerd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Designer")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QDesignerDnDItemInterface_from_QtDesigner_QDesignerDnDItemInterface_INCLUDE_GUARD */
+

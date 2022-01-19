@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QSqlDriverCreator_from_QtSql_QSqlDriverCreator_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QSqlDriverCreator_from_QtSql_QSqlDriverCreator_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qsqldrivercreator.html
+
+    #include <QtSql/QSqlDriverCreator>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Sqld")
+
+        #else
+
+            #pragma comment(lib, "Qt5Sql")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QSqlDriverCreator_from_QtSql_QSqlDriverCreator_INCLUDE_GUARD */
+

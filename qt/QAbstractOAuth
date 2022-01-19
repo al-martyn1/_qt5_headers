@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QAbstractOAuth_from_QtNetworkAuth_QAbstractOAuth_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QAbstractOAuth_from_QtNetworkAuth_QAbstractOAuth_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qabstractoauth.html
+
+    #include <QtNetworkAuth/QAbstractOAuth>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5NetworkAuthd")
+
+        #else
+
+            #pragma comment(lib, "Qt5NetworkAuth")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QAbstractOAuth_from_QtNetworkAuth_QAbstractOAuth_INCLUDE_GUARD */
+

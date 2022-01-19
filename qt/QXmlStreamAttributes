@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QXmlStreamAttributes_from_QtCore_QXmlStreamAtributes_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QXmlStreamAttributes_from_QtCore_QXmlStreamAtributes_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qxmlstreamattributes.html
+
+    #include <QtCore/QXmlStreamAttributes>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Cored")
+
+        #else
+
+            #pragma comment(lib, "Qt5Core")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QXmlStreamAttributes_from_QtCore_QXmlStreamAtributes_INCLUDE_GUARD */
+

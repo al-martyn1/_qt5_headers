@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QVector2D_from_QtGui_QVector2D_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QVector2D_from_QtGui_QVector2D_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qvector2d.html
+
+    #include <QtGui/QVector2D>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Guid")
+
+        #else
+
+            #pragma comment(lib, "Qt5Gui")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QVector2D_from_QtGui_QVector2D_INCLUDE_GUARD */
+

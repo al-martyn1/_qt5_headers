@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QQmlEngineExtensionInterface_from_QtQml_QmlEngineExtensionInterface_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QQmlEngineExtensionInterface_from_QtQml_QmlEngineExtensionInterface_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qqmlengineextensioninterface.html
+
+    #include <QtQml/QQmlEngineExtensionInterface>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Qmld")
+
+        #else
+
+            #pragma comment(lib, "Qt5Qml")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QQmlEngineExtensionInterface_from_QtQml_QmlEngineExtensionInterface_INCLUDE_GUARD */
+

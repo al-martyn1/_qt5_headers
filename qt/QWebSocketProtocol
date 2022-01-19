@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QWebSocketProtocol_from_QtWebSockets_QWebSocketProtocol_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QWebSocketProtocol_from_QtWebSockets_QWebSocketProtocol_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qwebsocketprotocol.html
+
+    #include <QtWebSockets/QWebSocketProtocol>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5WebSocketsd")
+
+        #else
+
+            #pragma comment(lib, "Qt5WebSockets")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QWebSocketProtocol_from_QtWebSockets_QWebSocketProtocol_INCLUDE_GUARD */
+

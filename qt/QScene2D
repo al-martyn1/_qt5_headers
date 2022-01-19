@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QScene2D_from_Qt3DQuickScene2D_QScene2D_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QScene2D_from_Qt3DQuickScene2D_QScene2D_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qscene2d.html
+
+    #include <Qt3DQuickScene2D/QScene2D>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DQuickScene2Dd")
+
+        #else
+
+            #pragma comment(lib, "Qt53DQuickScene2D")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QScene2D_from_Qt3DQuickScene2D_QScene2D_INCLUDE_GUARD */
+

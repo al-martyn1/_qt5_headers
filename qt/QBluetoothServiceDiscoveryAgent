@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QBluetoothServiceDiscoveryAgent_from_QtBluetoth_QBluetothServiceDiscoveryAgent_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QBluetoothServiceDiscoveryAgent_from_QtBluetoth_QBluetothServiceDiscoveryAgent_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qbluetoothservicediscoveryagent.html
+
+    #include <QtBluetooth/QBluetoothServiceDiscoveryAgent>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Bluetoothd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Bluetooth")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QBluetoothServiceDiscoveryAgent_from_QtBluetoth_QBluetothServiceDiscoveryAgent_INCLUDE_GUARD */
+

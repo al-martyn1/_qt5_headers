@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QHostInfo_from_QtNetwork_QHostInfo_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QHostInfo_from_QtNetwork_QHostInfo_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qhostinfo.html
+
+    #include <QtNetwork/QHostInfo>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Networkd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Network")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QHostInfo_from_QtNetwork_QHostInfo_INCLUDE_GUARD */
+

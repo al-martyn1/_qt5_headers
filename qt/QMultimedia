@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QMultimedia_from_QtMultimedia_QMultimedia_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QMultimedia_from_QtMultimedia_QMultimedia_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qmultimedia.html
+
+    #include <QtMultimedia/QMultimedia>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Multimediad")
+
+        #else
+
+            #pragma comment(lib, "Qt5Multimedia")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QMultimedia_from_QtMultimedia_QMultimedia_INCLUDE_GUARD */
+

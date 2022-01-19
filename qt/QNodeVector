@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QNodeVector_from_Qt3DCore_QNodeVector_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QNodeVector_from_Qt3DCore_QNodeVector_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qnodevector.html
+
+    #include <Qt3DCore/QNodeVector>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DCored")
+
+        #else
+
+            #pragma comment(lib, "Qt53DCore")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QNodeVector_from_Qt3DCore_QNodeVector_INCLUDE_GUARD */
+

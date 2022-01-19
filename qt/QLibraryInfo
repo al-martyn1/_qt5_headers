@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QLibraryInfo_from_QtCore_QLibraryInfo_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QLibraryInfo_from_QtCore_QLibraryInfo_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qlibraryinfo.html
+
+    #include <QtCore/QLibraryInfo>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Cored")
+
+        #else
+
+            #pragma comment(lib, "Qt5Core")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QLibraryInfo_from_QtCore_QLibraryInfo_INCLUDE_GUARD */
+

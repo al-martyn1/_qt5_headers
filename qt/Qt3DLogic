@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_Qt3DLogic_from_Qt3DLogic_Qt3DLogic_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_Qt3DLogic_from_Qt3DLogic_Qt3DLogic_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qt3dlogic.html
+
+    #include <Qt3DLogic/Qt3DLogic>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DLogicd")
+
+        #else
+
+            #pragma comment(lib, "Qt53DLogic")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_Qt3DLogic_from_Qt3DLogic_Qt3DLogic_INCLUDE_GUARD */
+

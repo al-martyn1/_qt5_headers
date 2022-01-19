@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QQmlContext_from_QtQml_QmlContext_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QQmlContext_from_QtQml_QmlContext_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qqmlcontext.html
+
+    #include <QtQml/QQmlContext>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Qmld")
+
+        #else
+
+            #pragma comment(lib, "Qt5Qml")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QQmlContext_from_QtQml_QmlContext_INCLUDE_GUARD */
+

@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QFrameAction_from_Qt3DLogic_QFrameAction_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QFrameAction_from_Qt3DLogic_QFrameAction_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qframeaction.html
+
+    #include <Qt3DLogic/QFrameAction>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DLogicd")
+
+        #else
+
+            #pragma comment(lib, "Qt53DLogic")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QFrameAction_from_Qt3DLogic_QFrameAction_INCLUDE_GUARD */
+

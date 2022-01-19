@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QAxisSetting_from_Qt3DInput_QAxisSeting_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QAxisSetting_from_Qt3DInput_QAxisSeting_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qaxissetting.html
+
+    #include <Qt3DInput/QAxisSetting>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DInputd")
+
+        #else
+
+            #pragma comment(lib, "Qt53DInput")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QAxisSetting_from_Qt3DInput_QAxisSeting_INCLUDE_GUARD */
+

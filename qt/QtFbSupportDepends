@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QtFbSupportDepends_from_QtFbSuport_QtFbSuportDepends_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QtFbSupportDepends_from_QtFbSuport_QtFbSuportDepends_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtfbsupportdepends.html
+
+    #include <QtFbSupport/QtFbSupportDepends>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5FbSupportd")
+
+        #else
+
+            #pragma comment(lib, "Qt5FbSupport")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QtFbSupportDepends_from_QtFbSuport_QtFbSuportDepends_INCLUDE_GUARD */
+

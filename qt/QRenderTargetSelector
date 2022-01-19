@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QRenderTargetSelector_from_Qt3DRender_QRenderTargetSelector_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QRenderTargetSelector_from_Qt3DRender_QRenderTargetSelector_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qrendertargetselector.html
+
+    #include <Qt3DRender/QRenderTargetSelector>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DRenderd")
+
+        #else
+
+            #pragma comment(lib, "Qt53DRender")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QRenderTargetSelector_from_Qt3DRender_QRenderTargetSelector_INCLUDE_GUARD */
+

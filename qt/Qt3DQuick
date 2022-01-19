@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_Qt3DQuick_from_Qt3DQuick_Qt3DQuick_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_Qt3DQuick_from_Qt3DQuick_Qt3DQuick_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qt3dquick.html
+
+    #include <Qt3DQuick/Qt3DQuick>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DQuickd")
+
+        #else
+
+            #pragma comment(lib, "Qt53DQuick")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_Qt3DQuick_from_Qt3DQuick_Qt3DQuick_INCLUDE_GUARD */
+

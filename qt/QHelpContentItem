@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QHelpContentItem_from_QtHelp_QHelpContentItem_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QHelpContentItem_from_QtHelp_QHelpContentItem_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qhelpcontentitem.html
+
+    #include <QtHelp/QHelpContentItem>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Helpd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Help")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QHelpContentItem_from_QtHelp_QHelpContentItem_INCLUDE_GUARD */
+

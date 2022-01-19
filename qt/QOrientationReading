@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QOrientationReading_from_QtSensors_QOrientationReading_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QOrientationReading_from_QtSensors_QOrientationReading_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qorientationreading.html
+
+    #include <QtSensors/QOrientationReading>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Sensorsd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Sensors")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QOrientationReading_from_QtSensors_QOrientationReading_INCLUDE_GUARD */
+

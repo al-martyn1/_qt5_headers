@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QDBusInterface_from_QtDBus_QDBusInterface_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QDBusInterface_from_QtDBus_QDBusInterface_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qdbusinterface.html
+
+    #include <QtDBus/QDBusInterface>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5DBusd")
+
+        #else
+
+            #pragma comment(lib, "Qt5DBus")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QDBusInterface_from_QtDBus_QDBusInterface_INCLUDE_GUARD */
+

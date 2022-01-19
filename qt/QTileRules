@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QTileRules_from_QtWidgets_QTileRules_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QTileRules_from_QtWidgets_QTileRules_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qtilerules.html
+
+    #include <QtWidgets/QTileRules>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Widgetsd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Widgets")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QTileRules_from_QtWidgets_QTileRules_INCLUDE_GUARD */
+

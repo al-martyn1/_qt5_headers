@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QExtrudedTextMesh_from_Qt3DExtras_QExtrudedTextMesh_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QExtrudedTextMesh_from_Qt3DExtras_QExtrudedTextMesh_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qextrudedtextmesh.html
+
+    #include <Qt3DExtras/QExtrudedTextMesh>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt53DExtrasd")
+
+        #else
+
+            #pragma comment(lib, "Qt53DExtras")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QExtrudedTextMesh_from_Qt3DExtras_QExtrudedTextMesh_INCLUDE_GUARD */
+

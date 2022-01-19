@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QSensorFilter_from_QtSensors_QSensorFilter_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QSensorFilter_from_QtSensors_QSensorFilter_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qsensorfilter.html
+
+    #include <QtSensors/QSensorFilter>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Sensorsd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Sensors")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QSensorFilter_from_QtSensors_QSensorFilter_INCLUDE_GUARD */
+

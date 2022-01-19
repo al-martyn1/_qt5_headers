@@ -1,0 +1,26 @@
+#pragma once
+
+#if !defined(UMBA_MAKE_HEADERS_GENERATED_QDesignerFormWindowInterface_from_QtDesigner_QDesignerFormWindowInterface_INCLUDE_GUARD)
+
+    #define UMBA_MAKE_HEADERS_GENERATED_QDesignerFormWindowInterface_from_QtDesigner_QDesignerFormWindowInterface_INCLUDE_GUARD
+
+    // https://doc.qt.io/qt-5/qdesignerformwindowinterface.html
+
+    #include <QtDesigner/QDesignerFormWindowInterface>
+
+    #if defined(_MSC_VER)
+
+        #if defined(DEBUG) || defined(_DEBUG)
+
+            #pragma comment(lib, "Qt5Designerd")
+
+        #else
+
+            #pragma comment(lib, "Qt5Designer")
+
+        #endif
+
+    #endif /* _MSC_VER */
+
+#endif /* UMBA_MAKE_HEADERS_GENERATED_QDesignerFormWindowInterface_from_QtDesigner_QDesignerFormWindowInterface_INCLUDE_GUARD */
+
